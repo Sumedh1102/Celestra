@@ -75,8 +75,8 @@ const Navbar = () => {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300 ease-out" style={{ backgroundColor: "#C89B6D" }}></span>
               </button>
               <div className="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 ease-out bg-black border border-[#C89B6D] mt-2 py-2 px-4 space-y-2 shadow-xl z-50 min-w-[180px]">
-                <button onClick={() => navigate("/solution/gemstones")} className="block hover:text-[#C89B6D] py-1 transform hover:translate-x-2 transition-transform duration-200">Gemstones</button>
-                <button onClick={() => navigate("/solution/pooja")} className="block hover:text-[#C89B6D] py-1 transform hover:translate-x-2 transition-transform duration-200">Grah Shanti Pooja</button>
+                <button onClick={() => navigate("/solution/gemstone")} className="block hover:text-[#C89B6D] py-1 transform hover:translate-x-2 transition-transform duration-200">Gemstones</button>
+                <button onClick={() => navigate("/solution/gharshanti")} className="block hover:text-[#C89B6D] py-1 transform hover:translate-x-2 transition-transform duration-200">Grah Shanti Pooja</button>
               </div>
             </div>
 
@@ -131,8 +131,8 @@ const Navbar = () => {
               <div className="space-y-2">
                 <div className="flex items-center gap-2 py-2 text-[#C89B6D] font-medium"><span>✦</span> ASTROLOGICAL</div>
                 <div className="pl-6 space-y-2">
-                  <button onClick={() => handleNavigate("/solution/gemstones")} className="block hover:text-[#C89B6D] hover:bg-gray-900 rounded px-2 py-1 transition-all duration-200 hover:translate-x-2">Gemstones</button>
-                  <button onClick={() => handleNavigate("/solution/pooja")} className="block hover:text-[#C89B6D] hover:bg-gray-900 rounded px-2 py-1 transition-all duration-200 hover:translate-x-2">Grah Shanti Pooja</button>
+                  <button onClick={() => handleNavigate("/solution/gemstone")} className="block hover:text-[#C89B6D] hover:bg-gray-900 rounded px-2 py-1 transition-all duration-200 hover:translate-x-2">Gemstones</button>
+                  <button onClick={() => handleNavigate("/solution/gharshanti")} className="block hover:text-[#C89B6D] hover:bg-gray-900 rounded px-2 py-1 transition-all duration-200 hover:translate-x-2">Grah Shanti Pooja</button>
                 </div>
               </div>
 

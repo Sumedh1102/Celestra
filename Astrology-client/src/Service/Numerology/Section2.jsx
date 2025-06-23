@@ -10,7 +10,7 @@ const Section2 = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left side - Decorative Numbers */}
           <div className="relative">
-            <img src={img} alt="" />
+            <img src={img} alt=""  className='h-[500px] lg:h-[600px]'/>
           </div>
 
           {/* Right side - Content */}

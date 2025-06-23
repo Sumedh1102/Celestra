@@ -64,7 +64,7 @@ const Section1 = () => {
           </div>
 
           {/* Right Simple Image with Overlay */}
-          <div className="relative lg:h-[600px] flex items-center justify-center">
+          <div className="relative  lg:h-[600px] flex items-center justify-center">
             <div className="relative pt-20">
               {/* Main background image */}
               <img
@@ -72,7 +72,7 @@ const Section1 = () => {
                 alt="Mystical numerology illustration"
                 width={400}
                 height={400}
-                className="rounded-t-[200px] h-[700px] bg-black object-cover"
+                className=" h-[500px] lg:h-[600px] bg-black object-cover"
               />
             </div>
           </div>

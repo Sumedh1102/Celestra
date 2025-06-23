@@ -34,7 +34,7 @@ const Section5 = () => {
           {/* Decorative Numbers Section */}
           <div className="relative flex justify-center">
             <div className="relative">
-              <img src={img} alt="" className='object-cover h-[600px] w-[500px]' />
+              <img src={img} alt="" className='object-cover h-[500px] lg:h-[600px]' />
               </div>
           </div>
 

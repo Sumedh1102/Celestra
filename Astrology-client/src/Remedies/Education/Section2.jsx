@@ -1,6 +1,6 @@
 import React from 'react'
 import { ChevronRight } from "lucide-react"
-import img from '../../Images/image copy.png'
+import img from '../../Images/guru.png'
 
 const Section2 = () => {
   return (
